@@ -1,5 +1,5 @@
-// Subtle reveal-on-scroll for project cards.
-const cards = document.querySelectorAll('.project-card');
+// Subtle reveal-on-scroll for project rows.
+const cards = document.querySelectorAll('.project-row');
 
 if ('IntersectionObserver' in window && cards.length) {
   cards.forEach((card) => {
@@ -23,3 +23,8 @@ if ('IntersectionObserver' in window && cards.length) {
 
   cards.forEach((card) => observer.observe(card));
 }
+
+console.log(
+  '%c> ACCESS GRANTED — welcome to rafin_hasan.sys',
+  'color:#e0102b;font-family:monospace;font-size:13px;'
+);
