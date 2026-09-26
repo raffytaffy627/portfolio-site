@@ -1,7 +1,8 @@
 // Subtle reveal-on-scroll for project rows.
 const cards = document.querySelectorAll('.project-row');
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-if ('IntersectionObserver' in window && cards.length) {
+if (!prefersReducedMotion && 'IntersectionObserver' in window && cards.length) {
   cards.forEach((card) => {
     card.style.opacity = '0';
     card.style.transform = 'translateY(16px)';
