@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raffytaffy627.github.io/portfolio-site/sitemap.xml
