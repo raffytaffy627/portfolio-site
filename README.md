@@ -1,6 +1,6 @@
 # portfolio-site
 
-Personal portfolio for Rafin Hasan — plain HTML/CSS/JS, no framework, no build step.
+Personal portfolio for Mahmudul Hasan — plain HTML/CSS/JS, no framework, no build step.
 
 ## Preview locally
 

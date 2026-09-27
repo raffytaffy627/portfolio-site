@@ -26,6 +26,6 @@ if (!prefersReducedMotion && 'IntersectionObserver' in window && cards.length) {
 }
 
 console.log(
-  '%c> ACCESS GRANTED — welcome to rafin_hasan.sys',
+  '%c> ACCESS GRANTED — welcome to mahmudul_hasan.sys',
   'color:#e0102b;font-family:monospace;font-size:13px;'
 );
