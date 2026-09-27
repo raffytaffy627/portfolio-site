@@ -82,3 +82,7 @@ styles.css    - all styling (black/red theme)
 script.js     - scroll-reveal animation for project cards
 CNAME         - custom domain for GitHub Pages
 ```
+
+## License
+
+[The Rafin Hasan License](LICENSE). Use it for anything, just keep the credit :3
